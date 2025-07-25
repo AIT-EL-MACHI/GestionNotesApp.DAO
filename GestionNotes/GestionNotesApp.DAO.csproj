@@ -46,24 +46,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AjouterNotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjouterNotes.Designer.cs">
+      <DependentUpon>AjouterNotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjouterNots.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjouterNots.Designer.cs">
+      <DependentUpon>AjouterNots.cs</DependentUpon>
+    </Compile>
     <Compile Include="Connexion.cs" />
     <Compile Include="..\..\..\..\Desktop\Etudiant.cs">
       <Link>Etudiant.cs</Link>
     </Compile>
     <Compile Include="EtudiantDAO.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Affichage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Affichage.Designer.cs">
+      <DependentUpon>Affichage.cs</DependentUpon>
     </Compile>
     <Compile Include="Matiere.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="NoteDAO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Affichage.resx">
+      <DependentUpon>Affichage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjouterNotes.resx">
+      <DependentUpon>AjouterNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjouterNots.resx">
+      <DependentUpon>AjouterNots.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
