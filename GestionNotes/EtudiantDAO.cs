@@ -10,8 +10,8 @@ using System.Data.SqlClient;
 namespace GestionNotes
 {
 
-   
-        public class EtudiantDAO
+    //class Etudiant
+    public class EtudiantDAO
         {
             public static List<Etudiant> GetAll()
             {
